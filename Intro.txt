@@ -1,0 +1,19 @@
+A group of people just built their houses in a maze-like forest! 
+Help them build a neighborhood by constructing the shortest path that connects all of their houses togther.
+
+Instruction:
+
+1. Press any number to initialize the number of houses (default is 2)
+2. Left-click on any cell to assign a house to that cell. Right click to erase it.
+3. When all houses are assigned, left-click again to create borders. If you are too lazy, button R is ready to serve!
+4. When your maze is set up, press Space to run the path finding algorithm between each house (A star)
+5. When all paths are found, press M to display the shortest path travelling across all houses (MST).
+6. Wanna try again? Press C.
+
+Notes:
+1. Travelling diagonally costs 3/cell, otherwise 1.
+2. Isolated houses will be colored red.
+
+Authors:
+1. Pham Khac Duy - 220219
+2. Phan Nhat Khoa - 220133
