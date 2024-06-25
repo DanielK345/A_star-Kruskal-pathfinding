@@ -2,19 +2,16 @@ import pygame
 import button
 import _tkinter as Tk
 from tkinter import *
+import Constants
 from Runscreen import RunScreen 
 
-
-#create display window
-SCREEN_HEIGHT = 500
-SCREEN_WIDTH = 800
 
 root = Tk()
 
 
 pygame.font.init()
 
-screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+screen = pygame.display.set_mode((Constants.SCREEN_WIDTH, Constants.SCREEN_HEIGHT))
 pygame.display.set_caption('Welcome To The Neighborhood game')
 
 #load button images

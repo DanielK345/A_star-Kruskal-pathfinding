@@ -1,5 +1,4 @@
 import pygame
-import sys
 
 pygame.init()
 main_font = pygame.font.SysFont("cambria", 50)
